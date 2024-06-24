@@ -1,0 +1,28 @@
+.title{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color:rgb(238, 208, 190)
+
+}
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#pres {
+    display: flex;
+    gap: 12px;
+}
+
