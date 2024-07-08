@@ -34,6 +34,32 @@ $html = <<<HTML
     <title>Prise de rendez-vous</title>
 
 </head>
+<html>
+        <head>
+            <meta charset="utf-8" />
+            <title>Raccaccoonie tatoo !</title>
+            <link rel="stylesheet" href="style.css" />
+        </head>
+
+        <header>
+            <div class="title">
+                <h1> RACCACCOONIE </h1>
+            </div>
+            <div class="title2">
+                <h2>Tatoo</h2>
+            </div>
+            <div class="menu">
+                <a href="index.html "> <p>Accueil</p> </a>
+                <a href="index.html#pres"> <div id="pres"> <p>Mickael <br>
+                        Raccaccoonie </p> </div></a>
+                <a href="index.html#pres"> <div> <p>Hand Poke</p></div> </a>  <!--penser à mettre les ancres-->
+                <a href=" " > <div> <p>Flash</p> </div></a>
+            <form action="rdv.php" method="get">
+            <a href="rdv.php"> <p>Rendez-vous</p></a>
+            </form>
+                <a href=" " ><div> <p>Créer taon loup.ve</p> </div></a>
+            </div>
+        </header>
 <body>
     <div class="container">
         <h1>Prise de rendez-vous</h1>
@@ -41,6 +67,10 @@ $html = <<<HTML
         <form action="submit_appointment.php" method="post">
             <!-- Champ pour le nom complet -->
             <label for="full_name">Nom complet:</label>
+            <input type="text" id="full_name" name="full_name" required>
+            
+            <!-- Champ pour le pronom -->
+            <label for="full_name">Ton pronom:</label>
             <input type="text" id="full_name" name="full_name" required>
 
             <!-- Champ pour l'adresse email -->
@@ -59,16 +89,27 @@ $html = <<<HTML
             <label for="appointment_time">Heure du rendez-vous:</label>
             <input type="time" id="appointment_time" name="appointment_time" required>
 
-            <!-- Champ pour le type de rendez-vous -->
-            <label for="appointment_type">Type de rendez-vous:</label>
+            <!-- Champ pour les préférences de discussion -->
+            <label for="appointment_type">Préférences pour le rendez-vous:</label>
             <select id="appointment_type" name="appointment_type" required>
-                <option value="consultation">Consultation</option>
-                <option value="suivi">Suivi</option>
-                <option value="autre">Autre</option>
+                <option value="consultation">J'adore blablater !</option>
+                <option value="suivi">J'aime discuter mais je suis timide, mets moi à l'aise</option>
+                <option value="autre">Je n'aime pas trop parler</option>
+                <option value="autre">On verra sur place selon mon mood</option>
+            </select>
+
+            <!-- Champ pour les préférences de son -->
+            <label for="appointment_type">Préférences pour l'ambiance:</label>
+            <select id="appointment_type" name="appointment_type" required>
+                <option value="consultation">J'arrive avec ma propre playlist </option>
+                <option value="suivi">Choisis la musique maestro  !</option>
+                <option value="autre">Ecoutons un podcast !</option>
+                <option value="autre">Sans musique pour moi</option>
+                <option value="autre">On verra sur place selon mon mood</option>
             </select>
 
             <!-- Champ pour les commentaires supplémentaires -->
-            <label for="comments">Commentaires:</label>
+            <label for="comments">Commentaires (trigger, sujets sensibles, détails...):</label>
             <textarea id="comments" name="comments" rows="4"></textarea>
 
             <!-- Bouton pour soumettre le formulaire -->
@@ -79,6 +120,7 @@ $html = <<<HTML
 </html>
 HTML;
 
+echo $html;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupération des données du formulaire
