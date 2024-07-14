@@ -28,22 +28,30 @@ body{
 }
 
 .insta {
-    width: 40px; /* Largeur fixe */
-    height: 40px; /* Hauteur fixe */
-    object-fit: cover; /* Remplit la zone tout en gardant le rapport d'aspect */
-    display: flex; /* Pour centrer l'image */
-    margin: 0 auto; /* Pour centrer l'image */
+
+
 }
 
 .tiktok {
-    display: flex;
-    align-content
+
 }
 
 .tiktok,
-.insta{
+.insta {
     display: flex;
-    gap: ;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.RS {
+    display: block;
+    width: 20px;   /* Définit la largeur à 200 pixels */
+    height: 10px;  /* Définit la hauteur à 100 pixels */
+}
+
+
+
 
 
 
