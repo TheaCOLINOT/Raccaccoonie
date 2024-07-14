@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color:rgb(238, 208, 190)
+    background-color: rgb(237, 200, 180)
 
 }
 
@@ -24,24 +24,35 @@ body{
 #pres {
     display: flex;
     gap: 12px;
+
 }
 
-.insta, 
-.tiktik{
-    height: 50px;
-    width: 50px;
+.insta {
+    width: 40px; /* Largeur fixe */
+    height: 40px; /* Hauteur fixe */
+    object-fit: cover; /* Remplit la zone tout en gardant le rapport d'aspect */
+    display: flex; /* Pour centrer l'image */
+    margin: 0 auto; /* Pour centrer l'image */
+}
+
+.tiktok {
     display: flex;
-
-    
+    align-content
 }
+
+.tiktok,
+.insta{
+    display: flex;
+    gap: ;
+
 
 
      /* Styles simples pour la mise en page */
  body {
-     font-family: Arial, sans-serif;
+     font-family: Javanese , sans-serif;
      margin: 0;
      padding: 20px;
-     background-color: #f4f4f4;
+     background-color: #edc8b4;
  }
 .container {
     max-width: 600px;
@@ -53,6 +64,18 @@ body{
 }
 h1 {
     text-align: center;
+    color: #1c100b;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 50px
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 50px;
 }
 form {
     display: flex;
@@ -69,12 +92,12 @@ input, textarea, select {
 }
 button {
     padding: 10px;
-    background-color: #c54242;
+    background-color: rgba(83, 48, 23, 0.75);
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
