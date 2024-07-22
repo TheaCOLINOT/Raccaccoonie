@@ -36,19 +36,18 @@ body{
 
 }
 
-.tiktok,
-.insta {
+
+
+.sn-img {
+    width: 150px;
+
+}
+
+div.RS {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
 }
 
-.RS {
-    display: block;
-    width: 20px;   /* Définit la largeur à 200 pixels */
-    height: 10px;  /* Définit la hauteur à 100 pixels */
-}
+
 
 
 
