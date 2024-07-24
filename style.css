@@ -1,9 +1,10 @@
-.h1{
+h1{
     display: flex;
     justify-content: center;
 }
 
-.h2{
+h2,
+.label {
     display: flex;
     justify-content: center;
     color: #321c13;

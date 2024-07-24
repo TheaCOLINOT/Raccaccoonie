@@ -64,7 +64,7 @@ $html = <<<HTML
             <form action="rdv.php" method="get">
             <a href="rdv.php"> <p>Rendez-vous</p></a>
             </form>
-                <a href=" " ><div> <p>Créer taon loup.ve</p> </div></a>
+                <a href=" " ><div> <p>Tarifs</p> </div></a>
             </div>
         </header>
 <body>
