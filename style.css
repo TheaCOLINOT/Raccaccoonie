@@ -120,3 +120,37 @@ button {
 button:hover {
     background-color: #321c13;
 }
+
+.tattoo1,
+.tattoo2,
+.tattoo3,
+.tattoo4,
+.tattoo5,
+.tattoo6,
+.tattoo7,
+.tattoo8,
+.tattoo9,
+.tattoo10,
+.tattoo11,
+.tattoo12,
+.tattoo13,
+.tattoo14,
+.tattoo15,
+.tattoo16 {
+    width : 200px;
+    height : 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    overflow: visible;
+}
+
+
+.flash {
+
+    display: flex;
+
+
+}
