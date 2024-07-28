@@ -56,7 +56,7 @@ $html = <<<HTML
             <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
         </head>
-
+<body>
         <header>
             <div class="title">
                 <h1> RACCACCOONIE </h1>
@@ -76,9 +76,17 @@ $html = <<<HTML
                 <a href=" " ><div> <p>Tarifs</p> </div></a>
             </div>
         </header>
-<body>
+        <h3>FLASHS :</h3>
+        
+   <p class="flashs"> Envoie moi un message avec : 
+    Ton prénom + tes pronoms + le flash que tu voudrais + la taille (approximative) et son emplacement (tu peux en donner plusieurs si tu hésites) -> si je n’ai pas ces informations, je ne peux pas te donner le prix du tatouage <3 Et si tu cherches juste à avoir une idée de mes prix, la démarche reste la même  
+    Mes flashs sont à la une ou directement sur mon compte : je les mets à jour régulièrement, mais il m’arrive d’en oublier ! Si tu tiens vraiment à un flash, je peux te proposer d’en dessiner des versions différentes si j’avais déjà prévu de le faire, ou bien je te proposerai d’en faire un projet perso pour qu’on puisse dessiner un flash spécial pour toi  
+    Je te donne un prix avec une échelle : blablabla
+    Si ça te convient, regarde mes dispos à la une et donne-moi un créneau qui te va ! Je te laisserai ensuite m’envoyer un arrhes de 30 et 50€ selon le prix final de ton tatouage pour que le flash et le créneau te soient réservés (ce que tu m’as versé sera déduit du prix final du tatouage)
+    Je t’envoie mon adresse et les infos nécessaires une fois qu’une date est réservée. Sens-toi libre de me demander plus d’infos si tu es stressé.e, il n’y pas d’angoisse ou de question bête.
+    </p>
     <div class="container">
-        <h1>Prise de rendez-vous</h1>
+        <h4>Prise de rendez-vous</h4>
         <!-- Formulaire de prise de rendez-vous -->
         <form action="submit_appointment.php" method="post">
             <!-- Champ pour le nom complet -->

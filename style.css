@@ -1,18 +1,6 @@
-h1{
-    display: flex;
-    justify-content: center;
-}
-
-h2,
-.label {
-    display: flex;
-    justify-content: center;
-    color: #321c13;
-}
 
 body{
     background-color: rgb(237, 200, 180)
-
 }
 
 .menu {
@@ -25,8 +13,6 @@ body{
 #pres {
     display: flex;
     gap: 12px;
-
-
 }
 
 .insta {
@@ -38,8 +24,6 @@ body{
 
 }
 
-
-
 .sn-img {
     width: 150px;
 
@@ -48,11 +32,6 @@ body{
 div.RS {
     display: flex;
 }
-
-
-
-
-
 
 
 
@@ -80,21 +59,18 @@ h1 {
     font-size: 50px
 }
 
-h2 {
+h2,
+h3,
+h4 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: bolder;
     font-style: normal;
     font-size: 50px;
-}
-
-h3,
-h4{
-    font-family: "Roboto Mono", monospace;
-    font-weight: bolder;
-    font-size: 50px;
-    font-style: bold;
+    display: flex;
+    justify-content: center;
     color: #321c13;
 }
+
 
 form {
     display: flex;
@@ -118,7 +94,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #321c13;
+    background-color: #8e472a;
 }
 
 .tattoo1,
@@ -148,9 +124,17 @@ button:hover {
 }
 
 
-.flash {
-
+p {
     display: flex;
+    color: #321c13;
+    font-family: Javanese , sans-serif;
+    margin: 50px;
+    padding: 20px;
+    background-color: #edc8b4;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 20px
+
 
 
 }
